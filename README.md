@@ -9,7 +9,7 @@ Short URL is a quick and dirty tinyurl clone.
 <p align="center">
 <img src="../assets/short_url_screenshot.png"
   alt="Screen shot of short-url in action"
-  width="686" height="289">
+  width="700" height="500">
 </p>
 
 ## How It Works
