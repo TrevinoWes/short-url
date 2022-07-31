@@ -7,8 +7,8 @@ Short URL is a quick and dirty tinyurl clone.
 * Retrieval of original URL
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/andresz1/size-limit-action/master/assets/pr.png"
-  alt="Size Limit comment in pull request about bundle size changes"
+<img src="../assets/short_url_screenshot.png"
+  alt="Screen shot of short-url in action"
   width="686" height="289">
 </p>
 
@@ -58,8 +58,8 @@ Short URL is a quick and dirty tinyurl clone.
 
 ## Potential Improvements
 
-*Create full object to manage database or memory used to save URL info
-*Implement a token that allows validation of our frontend (Will make it harder to ddos)
-*Use a thread pool for multi threading the server (shared objects are already thread safe)
-*Config file to set socket and other server parameters
-*Add logging
+* Create full object to manage database or memory used to save URL info
+* Implement a token that allows validation of our frontend (Will make it harder to ddos)
+* Use a thread pool for multi threading the server (shared objects are already thread safe)
+* Config file to set socket and other server parameters
+* Add logging
