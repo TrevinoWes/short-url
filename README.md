@@ -15,10 +15,10 @@ Short URL is a quick and dirty tinyurl clone.
 ## How It Works
 
 1. Uses Poco for boiler plate web server code
-2. Encodes URL to create a shortened URI it following [encoding link]
-3. Stores encoded url in a hash with usage count and original link
+2. Encodes URL to create a shortened URI following [Encoding Algorithm]
+3. Stores encoded URL in a hash with usage count and original link
 
-[encoding link]: https://stackoverflow.com/a/742047
+[Encoding Algorithm]: https://stackoverflow.com/a/742047
 
 ## Build Project
 
@@ -59,7 +59,7 @@ Short URL is a quick and dirty tinyurl clone.
 ## Potential Improvements
 
 * Create full object to manage database or memory used to save URL info
-* Implement a token that allows validation of our frontend (Will make it harder to ddos)
-* Use a thread pool for multi threading the server (shared objects are already thread safe)
-* Config file to set socket and other server parameters
+* Implement a token that allows validation of our frontend (Will make it harder to DDoS)
+* Use a thread pool for multithreading the server (shared objects are already thread safe)
+* Create config file to set socket and other server parameters
 * Add logging
